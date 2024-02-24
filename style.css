@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* navigation bar */
+.head{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+.head>.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    color: white;
+    text-align: center;
+}
+.head >.navbar >.manu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.head >.navbar >.manu > ul >li{
+    display: inline;
+    justify-content: space-around;
+    padding: 10px;
+}
+/* navigation bar end */
+/* aprt 1 */
+.franchise,.Order-online{
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+}
+.franchise{
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.Order-online{
+    border: none;
+    color: white;
+    border-radius: 25px;
+    background-color: red;
+}
+.conatainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.conatainer .child{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: black;
+} 
+.conatainer .child .main-child{
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.conatainer .child-1{
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.conatainer .child-1 .child-p{
+    font-size: 45px;
+}
+.SaltnPepper{
+    font-size: 45px;
+    font-family: 'Notable', sans-serif;
+}
+.main-child .card-div{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-div .card1, .card2, .card3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.child-card-btn{
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+}
+.parent{
+    width: 100%;
+    background-color: rgb(43, 39, 39);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parent .child2-mian-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.parent .child2-mian-part .child2-part{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.parent .addres1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.parent .addres1 .add-part1{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    padding: 20px;
+    height: 300px;
+    gap: 20px;
+}
+
+.parent .addres1 .add-part1 .add-card1{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.add-card1 p span{
+    font-family: 'Notable', sans-serif;
+}
+.parent .addres1 .add-part1 .add-card1{
+    width: 100%;
+}
+
+/* part 3 */
+.part3{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+.part3 .part3-main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+.part3 .part-card-container{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.part3 .part-card-container .part-card .part-card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.add-card1 p span{
+    font-family: 'Notable', sans-serif;
+}
+.part4{
+    background-color: rgb(43, 39, 39);
+    width: 100%;
+    color: #fff;
+    padding: 50px 0px;
+}
+.part4 .part4-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.part4 .part4-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.part4 .part4-container .part4-section1{
+    width: 50%;
+}
+.part4 .part4-container .part4-section1 p span{
+    font-family: Times New Roman', Times, serif;
+}
+.part4 .part4-container .part4-section2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.part4-section2 p span{
+    font-family:'Times New Roman', Times, serif;
+}
+/* part5 */
+.part5{
+    width: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part5 .opening-soon{
+    width: 70%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part5 .opening-soon .part5-content{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    color: #fff;
+}
+.part5 .part5-section1,.part5-section2,.part5-section3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+}
+.part5-card1,.part5-card2,.part5-card3,.part5-card4,.part5-card5,.part5-card6,.part5-card7,.part5-card8,.part5-card9{
+    width: 300px;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social-feed{
+    padding: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+/* footer */
+.footer{
+    width: 100%;
+    background-color: rgb(43, 39, 39);
+    display: flex;
+    color: #fff ;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .footer-div{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.footer .footer-div .footer-part1{
+    width: 350px;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer .footer-div .footer-part2{
+    gap: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.footer .footer-div .footer-part2 ul li{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer .footer-div .footer-part3{
+    width: 250px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+.footer .footer-div .footer-part4{
+    gap: 20px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    object-position: center;
+    flex-direction: column; 
+}
